@@ -1,0 +1,80 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(/cart.jpg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+ 
+}
+
+.container {
+  width: 300px;
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(33, 33, 33, 0.2);
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 8px;
+}
+
+.input-section button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background-color: #45a049;
+}
+
+.button-section button {
+  border-radius: 4px;
+  padding: 8px 15px;
+  background-color: #f44336;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.button-section button:hover {
+  background-color: #da190b;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul li.purchased {
+  text-decoration: line-through;
+  background-color: #e0f7fa;
+}
