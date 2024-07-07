@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
         renderList();
     });
 
+
+
     function saveList() {
         localStorage.setItem('shoppingList', JSON.stringify(shoppingList));
     }
